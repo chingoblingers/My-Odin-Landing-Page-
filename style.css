@@ -1,6 +1,7 @@
 body {
     display: flex;
     flex-direction: column;
+    margin: 0;
 }
 
 .header {
@@ -29,12 +30,13 @@ body {
 .intro {
     display: flex;
     justify-content: space-around;
+    margin: 0;
 }
 
 .intro img {
     width: 500px;
     height: 500px;
-    margin-right: 200px;
+    margin-right: 100px;
 }
 
 .i1 {
@@ -49,12 +51,16 @@ body {
 .beginning {
     display: flex;
     justify-content: space-around;
-    margin: 30px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    gap: 20px;
 }
 
 .beginning img {
-    height: 400px;
-    width: 400px;
+    height: 350px;
+    width: 350px;
+    border: 5px solid #3882f6;
+    border-radius: 50px;
 }
 
 .middle {
@@ -75,7 +81,8 @@ body {
 
 .quote2 {
     display: flex;
-    justify-content: center;
+    justify-content: flex-end;
+    font-weight: 900;
 }
 
 .end {
@@ -92,6 +99,7 @@ body {
 
 button {
     background-color: #3882f6;
+    border-radius: 5px;
 }
 
 .footer {
@@ -116,8 +124,10 @@ button {
     background-color: #3882f6;
     display: flex;
     gap: 40px;
-    margin: 50px;
+    margin-top: 50px;
+    margin-bottom: 50px;
     padding: 50px;
+    border-radius: 5px;
 }
 
 .random {
@@ -126,4 +136,12 @@ button {
     font-size: 36px;
     font-weight: 900px;
     color: #1f2937;
+    margin-top: 25px;
+}
+
+.photo {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 16px;
+    margin-left: 25px;
 }
